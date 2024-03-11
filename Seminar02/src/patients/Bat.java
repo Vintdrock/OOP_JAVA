@@ -1,9 +1,9 @@
-package impl;
+package patients;
 
 import java.time.LocalDate;
-import clients.Animal;
-import clients.Owner;
-import clients.Flyable;
+import interFace.Animal;
+import interFace.Owner;
+import interFace.Flyable;
 
 public class Bat extends Animal implements Flyable {
     public Bat(String name, double weight, LocalDate age, Owner owner) {
@@ -12,7 +12,7 @@ public class Bat extends Animal implements Flyable {
 
     @Override
     public void eat() {
-        System.out.println(" ест");
+        System.out.println("Ночной вампир пьет кровь!");
     }
 
     public void swim(){

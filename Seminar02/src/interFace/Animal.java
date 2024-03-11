@@ -1,7 +1,7 @@
-package clients;
+package interFace;
 import java.time.LocalDate;
 
-public abstract class Animal {
+public abstract class Animal { //Абстрактный класс может не иметь абстрактных методов
     protected String name;
     protected double weight;
     protected LocalDate age;
@@ -16,10 +16,18 @@ public abstract class Animal {
     }
 
     //Методы поведение класса
-    public abstract void eat();
+    public abstract void eat(); //Абстрактные методы только в интерфейсах и абстрактных классах
 
     public String getType(){
         return getClass().getSimpleName();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Owner getOwner() {
+        return owner;
     }
 
     public String toString(){

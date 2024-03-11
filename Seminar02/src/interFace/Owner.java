@@ -1,5 +1,4 @@
-package clients;
-import java.time.LocalDate;
+package interFace;
 
 public class Owner {
     public String name;

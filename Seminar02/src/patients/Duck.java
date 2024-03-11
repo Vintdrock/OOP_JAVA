@@ -1,19 +1,16 @@
-package impl;
-import clients.Animal;
-import clients.Owner;
-import clients.Flyable;
-import clients.Swimable;
+package patients;
+import interFace.*;
 
 import java.time.LocalDate;
 
-public class Duck extends Animal implements Flyable, Swimable {
+public class Duck extends Animal implements Flyable, Swimable, Goable {
     public Duck(String name, double weight, LocalDate age, Owner owner) {
         super(name, weight, age, owner);
     }
 
     @Override
     public void eat() {
-        System.out.println("ест");
+        System.out.println("Утка щипет травку!!");
     }
 
     @Override
@@ -22,7 +19,12 @@ public class Duck extends Animal implements Flyable, Swimable {
     }
 
     @Override
-    public void swim() {
+    public double swim() {
+        return 1;
+    }
 
+    @Override
+    public double run() {
+        return 8;
     }
 }
