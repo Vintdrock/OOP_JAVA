@@ -11,8 +11,13 @@ public abstract class MedicineComponent implements Comparable<MedicineComponent>
         this.power = power;
     }
 
+    public float getWeight() {
+        return weight;
+    }
+
     @Override
     public int compareTo(MedicineComponent o) {
+//        return name.compareTo(o.name); //Сравнение по имени
 //        return power-o.power; //вариант 1
         return Integer.compare(this.power, o.power); //Вариант 2
 //        if (this.power) > o.power { //Вариант 3
