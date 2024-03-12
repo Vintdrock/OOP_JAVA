@@ -18,7 +18,7 @@ public class Main {
         MedicineComponent vetbicid = new Vetbicid("Ветбицид", 40, 30);
 
         //Созадаем лекарство
-        System.out.println("С использованием Iterator");
+        System.out.println("_______________С использованием Iterator");
         Medicine medicine1 = new Medicine();
         medicine1.addComponent(asitr).addComponent(penicilin).addComponent(vetbicid);
 
