@@ -48,15 +48,33 @@ public class GbArrayList<E> implements GbList<E> {
     }
 
     @Override
-    public void remove(E value) {
-        capacity = capacity - 1;
-        E[] res = (E[]) new Object[capacity];
-        System.arraycopy(values, 0, res,0,);
+    public void removeByValue(E value) {
+        for (int i = 0; i < values.length; i++) {
+            if (values[i].equals(value)){
+                removeByIndex(i);
+                return;
+            }
+        }
+        throw new RuntimeException("Элемент не найден");
     }
 
     @Override
-    public void remove(int index) {
-
+    public void removeByIndex(int index) {
+        try{
+            E[] temp = values;
+            values = (E[]) new Object[temp.length - 1];
+            System.arraycopy(temp, 0, values,0, index);
+            int amoutElementsAfterIndex = temp.length - index - 1;
+            System.arraycopy(temp, index + 1, values, index, amoutElementsAfterIndex);
+        } catch (ClassCastException e){
+            throw  new RuntimeException(e);
+        }
+//        capacity = capacity - 1;
+//        E[] res = (E[]) new Object[capacity];
+//        System.arraycopy(values, 0, res,0, index);
+//        int amoutElementsAfterIndex = values.length - index - 1;
+//        System.arraycopy(values, index + 1, res, index, amoutElementsAfterIndex);
+//        size--;
     }
 
     @Override
@@ -68,4 +86,18 @@ public class GbArrayList<E> implements GbList<E> {
     public Iterator<E> iterator() {
         return new ArrayIterator<>(values);
     }
+    public String toString(){
+        StringBuilder builder = new StringBuilder("[");
+        int i =0;
+        while (values[i] != null){
+            builder.append(values[i]).append(", ");
+            i++;
+        }
+        if (builder.length() == 1)
+            return "[]";
+        builder.deleteCharAt(builder.length() - 1).deleteCharAt(builder.length()-1);
+        builder.append("]");
+        return builder.toString();
+    }
 }
+
