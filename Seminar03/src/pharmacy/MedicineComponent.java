@@ -1,7 +1,7 @@
 package pharmacy;
 
 public abstract class MedicineComponent implements Comparable<MedicineComponent>{
-    private String name;
+    String name;
     private float weight;
     private int power;
 
@@ -13,6 +13,10 @@ public abstract class MedicineComponent implements Comparable<MedicineComponent>
 
     public float getWeight() {
         return weight;
+    }
+
+    public int getPower() {
+        return power;
     }
 
     @Override
@@ -31,8 +35,8 @@ public abstract class MedicineComponent implements Comparable<MedicineComponent>
     public String toString() {
         return "MedicineComponent{" +
                 "name='" + name + '\'' +
-                ", weight=" + weight +
-                ", power=" + power +
+//                ", weight=" + weight +
+//                ", power=" + power +
                 '}';
     }
 }

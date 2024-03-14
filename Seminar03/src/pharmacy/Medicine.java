@@ -1,16 +1,16 @@
 package pharmacy;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 //
-public class Medicine implements Iterator<MedicineComponent> {
+public class Medicine implements Comparable<Medicine>, MedicineComponent {
     private List<MedicineComponent> components;
     private int index;
 
     public Medicine() {
         this.components = new ArrayList<>();
         this.index = 0;
+        index++;
     }
 
     public Medicine addComponent(MedicineComponent component){
@@ -18,20 +18,26 @@ public class Medicine implements Iterator<MedicineComponent> {
         return this;
     }
 
-    @Override
-    public boolean hasNext() {
-    //    return components.iterator().hasNext();// или так
-        return index < components.size();
-    }
 
-    @Override
-    public MedicineComponent next() {
-    //    return components.iterator().next();
-        return components.get(index++);
+    public int getComponentsPower(){
+        int power = 0;
+        for (MedicineComponent component: components){
+            power += component.getPower()*component.getWeight();
+        }
+//        power = medicine.getPower() * (int) component.getWeight();
+        return power;
+
     }
 
     @Override
     public String toString() {
         return "Лекарство: " + components.toString();
     }
+
+    @Override
+    public int compareTo(Medicine medicine) {
+
+        return Integer.compare(this.getComponentsPower(), medicine.getComponentsPower());
+    }
+
 }
