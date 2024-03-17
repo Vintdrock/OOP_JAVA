@@ -3,7 +3,7 @@ package gbCollections.lists.util;
 import java.util.Iterator;
 
 public class ArrayIterator<E> implements Iterator<E> {
-    private E[] array;
+    private final E[] array;
     private int index;
 
     public ArrayIterator(E[] array) {
