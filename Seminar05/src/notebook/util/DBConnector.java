@@ -16,6 +16,7 @@ public class DBConnector {
         }
         catch (Exception e) {
             System.err.println(e);
+
         }
     }
 }

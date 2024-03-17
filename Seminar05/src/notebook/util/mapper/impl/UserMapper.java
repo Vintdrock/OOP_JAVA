@@ -9,6 +9,7 @@ public class UserMapper implements Mapper {
         return String.format("%s,%s,%s,%s", user.getId(), user.getFirstName(), user.getLastName(), user.getPhone());
     }
 
+
     @Override
     public User toOutput(String s) {
         String[] lines = s.split(",");

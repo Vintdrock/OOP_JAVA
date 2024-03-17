@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78a51179-b9aa-43d9-9eb5-a6ba643943be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Seminar03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Seminar03/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/model/repository/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/model/repository/impl/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/util/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/util/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/util/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/UserValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/util/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/mapper/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/util/mapper/impl/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/mapper/impl/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebook/view/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/view/UserView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2doZKIAb5cnUUbWIgYqQhvSZfrF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "/Users/kuyask/Documents/GB/OOP/Seminar05/src/Main.java",
+    "settings.editor.selected.configurable": "configurable.group.language"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78a51179-b9aa-43d9-9eb5-a6ba643943be" name="Changes" comment="" />
+      <created>1710676326888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710676326888</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
