@@ -11,9 +11,19 @@ public class Main {
         list.add(89);
         list.add(8);
         list.add(0);
-        System.out.println(list);
-        list.removeByIndex(2);
-        System.out.println(list);
+        list.add(45);
+        list.add(2);
+        System.out.println("Оригинальный  список:             " + list);
+        list.removeByIndex(3);
+        System.out.println("Список с удаление по  индексу     " + list);
+        list.removeByValue(89);
+        System.out.println("Список с удаление по значению (89)" + list);
+        list.add(0,4);
+        System.out.println("С добавлением по индексу в начало " + list);
+        list.add(3,99);
+        System.out.println("С добавление по индексу в середину" + list);
+
+
 
 
         //код с семинара

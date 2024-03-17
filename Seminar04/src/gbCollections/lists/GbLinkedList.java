@@ -25,7 +25,27 @@ public class GbLinkedList <E> implements GbList<E> {
 
     @Override
     public void add(int index, E value) {
+        Node<E> temp;
+        if (index == 0) {
+            temp = this.head;
+            this.head = new Node<>(value);
+            head.next = temp;
+        } else {
+            Node<E> prev = null;
+            Node<E> curr = head;
+            int count = 0;
+            while (count != index){
+                prev = curr;
+                curr = curr.next;
+                count++;
+            }
+            temp = curr;
+            prev.next= new Node<>(value);
+            curr = prev.next;
+            curr.next = temp;
 
+        }
+        size++;
     }
 
     @Override
@@ -41,7 +61,18 @@ public class GbLinkedList <E> implements GbList<E> {
 
     @Override
     public void removeByValue(E value) {
-
+        if (head.value == value){
+            head = head.next;
+        }else {
+            Node<E> prev = null;
+            Node<E> curr = head;
+        while (curr.value != value){
+            prev = curr;
+            curr = curr.next;
+        }
+            prev.next = curr.next;
+            size--;
+        }
     }
 
     @Override

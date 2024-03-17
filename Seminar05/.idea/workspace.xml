@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78a51179-b9aa-43d9-9eb5-a6ba643943be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Seminar03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Seminar03/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/model/repository/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/model/repository/impl/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/util/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/util/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/util/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/UserValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/util/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/mapper/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/util/mapper/impl/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/util/mapper/impl/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/view/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/view/UserView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
