@@ -14,9 +14,4 @@ public class TerminalPaymentService implements Payable {
     public void payCreditCard(int amount) {
         System.out.printf("Terminal pay by credit card %d\n", amount);
     }
-
-    @Override
-    public void payPhoneNumber(int amount) {
-        throw new NotImplementedException();
-    }
 }

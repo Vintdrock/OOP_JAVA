@@ -1,5 +1,5 @@
 package lsp1.shape;
 
-public class QuadLiteral {
-
+public abstract class QuadriLateral {
+    public abstract double getArea();
 }

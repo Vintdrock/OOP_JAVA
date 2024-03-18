@@ -1,4 +1,4 @@
 package srp1.figure;
 
-public class Recrangle extends Shape {
+public class Rectangle extends Shape {
 }

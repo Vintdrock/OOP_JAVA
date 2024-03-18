@@ -5,5 +5,6 @@ public class Main{
         User user = new User("Bob");
         user.report();
         user.save();
+
     }
 }

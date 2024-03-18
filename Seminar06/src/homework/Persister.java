@@ -1,6 +1,6 @@
 package homework;
 
-public class Persister{
+public class Persister{//сохраняльщик
     private final User user;
 
     public Persister(User user){
@@ -10,4 +10,6 @@ public class Persister{
     public void save(){
         System.out.println("Save user: " + user.getName());
     }
+
+
 }

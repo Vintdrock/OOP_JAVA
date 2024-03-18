@@ -15,8 +15,7 @@ public class Report{
         items.add(new ReportItem("Second", (float)6));
     }
 
-    public void output(){
-        ReportPrinter reportPrint = new ReportPrinter();
-        reportPrint.output(items);
+    public List<ReportItem> getItems() {
+        return items;
     }
 }

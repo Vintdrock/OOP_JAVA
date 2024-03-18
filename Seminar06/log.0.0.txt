@@ -6,3 +6,9 @@ INFO: Стартовал метод main в пакете model
 INFO: Стартовал метод main в пакете model
 апр 02, 2023 8:38:31 PM dip1.Main main
 INFO: РЎС‚Р°СЂС‚РѕРІР°Р» РјРµС‚РѕРґ main РІ РїР°РєРµС‚Рµ model
+Mar 18, 2024 11:48:10 AM dip1.Main main
+INFO: Method main in model package started
+Mar 18, 2024 12:36:24 PM dip1.Main main
+INFO: Method main in model package started
+Mar 18, 2024 12:43:28 PM dip1.Main main
+INFO: Method main in model package started
