@@ -28,6 +28,10 @@ public class UserController {
 
         throw new RuntimeException("User not found");
     }
+
+    public void deleteUser(String userId) throws Exception {
+        repository.delete(Long.parseLong(userId));
+    }
     public List<User> readAll(){
         return repository.findAll();
     }

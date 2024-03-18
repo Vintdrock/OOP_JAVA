@@ -2,6 +2,7 @@ package notebook.view;
 
 import notebook.controller.UserController;
 import notebook.model.User;
+import notebook.model.repository.impl.UserRepository;
 import notebook.util.Commands;
 
 import java.util.Scanner;
@@ -35,11 +36,24 @@ public class UserView {
                         throw new RuntimeException(e);
                     }
                     break;
+                case DELETE:
+                    id = prompt("Идентификатор пользователя: ");
+
+                    try {
+                        userController.deleteUser(id);
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                    // if (userController.deleteUser(Long.parseLong(id)))
+                    break;
                 case READALL:
                     System.out.println(userController.readAll());
+                    break;
                 case UPDATE:
                     String userId = prompt("Enter user id: ");
                     userController.updateUser(userId, createUser());
+                default:
+                    System.out.println("Команда не поддерживается");
             }
 
         }
