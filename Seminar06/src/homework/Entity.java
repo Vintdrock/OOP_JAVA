@@ -1,2 +1,5 @@
-package homework;public interface Entity {
+package homework;
+
+public interface Entity {
+    String getName();
 }

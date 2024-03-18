@@ -1,14 +1,14 @@
 package homework;
 
 public class Persister{//сохраняльщик
-    private final User user;
+    //private final User user;
 
-    public Persister(User user){
-        this.user = user;
-    }
+//    public Persister(User user){
+//        this.user = user;
+//    }
 
-    public void save(){
-        System.out.println("Save user: " + user.getName());
+    public void save(Entity entity){
+        System.out.println("Save entity: " + entity.getName());
     }
 
 
