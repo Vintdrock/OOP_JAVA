@@ -2,9 +2,10 @@ package homework;
 
 public class Main{
     public static void main(String[] args){
-        User user = new User("Bob");
-        user.report();
-        user.save();
-
+        Entity user = new User("Bob");
+        Persister save = new Persister();
+        save.save(user);
+        Reporter rep = new Reporter();
+        rep.report(user);
     }
 }

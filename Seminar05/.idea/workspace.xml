@@ -5,67 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a51179-b9aa-43d9-9eb5-a6ba643943be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebook.model.repository.impl.UserRepository@27716f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/Seminar06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/log.0.0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/log.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/order.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/dip1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/dip1/model/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/dip1/model/ReportItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/dip1/model/ReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/dip1/model/Reportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/dip1/model/util/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/dip1/model/util/ReportPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/homework/Persister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/homework/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/isp1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/isp1/pay/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/isp1/pay/impl/InternetPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/isp1/pay/impl/PhoneNumberPayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/isp1/pay/impl/TerminalPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/logger/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp1/shape/QuadriLateral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp1/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp1/shape/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp1/view/ShapeView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp2/factory/OrderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp2/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp2/model/OrderBonus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/lsp2/util/OrderCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/ocp1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/ocp1/shape/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/ocp1/shape/impl/RightTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/ocp1/shape/impl/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp1/figure/Malevich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp1/figure/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp1/figure/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp1/figure/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp1/figure/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp1/figure/SquarePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seminar06/src/srp2/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Seminar03/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Seminar03/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/model/dao/Operation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/model/dao/impl/FileOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/model/repository/GBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/model/repository/GBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/model/repository/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/model/repository/impl/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebook/view/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/view/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
